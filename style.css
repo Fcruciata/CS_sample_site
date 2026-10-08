@@ -1,0 +1,89 @@
+.style{
+    margin: 0px;
+    padding:0px;
+}
+
+.title{
+    color:palevioletred;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.myimg{
+    width: 15px;
+    height: 15px;
+}
+
+.comparison{
+    display: flex;
+    flex-direction: row;
+}
+
+.dog, .cat, .sunrise, .sunset{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    padding: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightpink;
+}
+
+.dog img, .cat img{
+    width: 200px;
+    height: 200px;
+}
+
+.navbar{
+    background-color: pink;
+    justify-content: center;
+
+}
+
+.card-body img{
+    width: 200px;
+    height: 200px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height:100vh;
+    background-color: lightcoral;
+    justify-content: center !important;
+
+}
+
+
+.title, .text{
+    color: black;
+    justify-content: center;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 15px;
+}
