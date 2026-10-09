@@ -1,12 +1,26 @@
 .style{
     margin: 0px;
     padding:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f7e1d7;
 }
 
 .title{
-    color:palevioletred;
+    color: black;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    padding: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-self: center;
+}
+
+.navbar{
+    background-color: #b5b5b4;
+    justify-content: center;
+
 }
 
 .myimg{
@@ -15,34 +29,32 @@
 }
 
 .comparison{
+    justify-self: center;
     display: flex;
     flex-direction: row;
 }
 
-.dog, .cat, .sunrise, .sunset{
+.dog, .cat {
+    padding: 25px;
+}
+
+.cards{
+    padding: 70 px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-body{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.container{
-    padding: 70px;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: lightpink;
-}
-
 .dog img, .cat img{
     width: 200px;
     height: 200px;
-}
-
-.navbar{
-    background-color: pink;
-    justify-content: center;
-
 }
 
 .card-body img{
@@ -53,20 +65,13 @@
 .hero{
     display: flex;
     flex-direction: column;
-
-    width: 100vw;
-    height:100vh;
-    background-color: lightcoral;
+    width: 75vw;
+    height:75vh;
+    background-color:  #edafb8;
     justify-content: center !important;
+    justify-self: center;
 
 }
-
-
-.title, .text{
-    color: black;
-    justify-content: center;
-}
-
 
 .content{
     display: flex;
